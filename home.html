@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <style>
+    /* General styles */
+    
+    /* Linkslogo
+    a {
+      padding: 10px;
+      color: brown;
+      background-color: pink;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      background-color: beige;
+    }
+    a:active {
+      background-color: red;
+    }
+    /* Search button */
+    button.btn {
+      margin-left: 15px;
+      margin-top: 4px;
+    }
+    /* Search input */
+    input.form-control {
+      margin-left: 15px;
+      padding: 8px;
+    }
+    /* Header list items */
+    header ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    header ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: beige;
+    }
+    .dropdown {
+    position: relative;
+    display: inline;
+    margin-right:10px;
+   }
+   .dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    left:0;
+   }
+   .dropdown:hover .dropdown-contents{
+    display: block;
+   }
+   .dropdown-contents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+   }
+   .dropdown-contents a: hover{
+    background-color: #f1f1f1;
+   }
+   section{
+    padding: 80px;
+    border-bottom: 1px solid #ddd;
+   }
+   footer{
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+   }
+
+  </style>
+</head>
+<body>
+<header>
+  <body style="background-image: url('./image/th.jpeg'); background-size: cover; background-repeat: no-repeat;">
+
+  <form class="d-flex" role="search" action="search.php">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+  <ul>
+    <li><img src="./image/logo1.jpg" width="90" height="60" alt="Logo"></li>
+    <li><a href="./home.html">HOME</a></li>
+    <li><a href="./about.html">ABOUT</a></li>
+    <li><a href="./contact.html">CONTACT</a></li>
+      <li class="dropdown" style="display: inline; margin-right: 10px;">
+    <a href="#" class="dropdown-toggle" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">tables</a>
+    <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        
+        <a href="./customer.php">CUSTOMER</a>
+    <a href="./artist.php">ARTIST</a>
+    <a href="./transaction.php">TRANSACTION</a>
+    <a href="./order.php">ORDERS</a>
+    <a href="./warehouse.php">WAREHOUSE</a>
+    <a href="./portraits.php">PORTRAITS</a>
+    </div>
+</li>
+     <li class="dropdown" style="display: inline; margin-right: 10px;">
+    <a href="#" class="dropdown-toggle" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+    <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+    </div>
+</li>
+    
+    
+    
+  </ul>
+
+</header>
+<section>
+  <marquee><h1>WELCOME TO OUR WEBSITE OF ONLINE PORTRAITS SELLING MANAGEMENT SYSTEM</h1></marquee>
+  <h2>Some specific services we offer on our online portraits selling management system project:</h2>
+  <ol type="number">
+    <li><b>Selling arts</b></li> 
+    <li><b>Buying</b></li>
+    <li><b>Delivering the products to customers</b></li>
+    <li><b>Repairing the paints/arts that have been damaged</b></li>
+  </ol>
+</section>
+<footer>
+  <b><h2>UR CBE BIT &copy; 2024 &reg;, Designed by: @Winner MWEZI</h2></b>
+</footer>
+</body>
+</html>
